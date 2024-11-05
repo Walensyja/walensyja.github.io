@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.divider {
+    height: 400px;
+    width: 100%;
+    background-color: #222222;
+    padding: 15px;
+}
+.divider_medien{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: red; 
+    margin: 15px;
+}
+.divider_medien img{
+    display: block;
+    margin: 0 auto;
+    transform: translateY(75%);
+}
